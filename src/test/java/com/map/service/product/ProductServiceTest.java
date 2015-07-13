@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.test.annotation.Rollback;
 
 import com.map.model.product.Product;
 import com.map.service.BaseTest;
@@ -27,7 +26,6 @@ public class ProductServiceTest extends BaseTest {
 	}
 
 	@Test
-	@Rollback(false)
 	public void testSave() {
 		product = new Product();
 		product.setName("测试");

@@ -22,7 +22,7 @@ public class ProductServiceImpl implements ProductService, Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -4771653058884218926L;
-	
+
 	private ProductDao productDao;
 
 	@Override

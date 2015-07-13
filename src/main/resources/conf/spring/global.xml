@@ -35,6 +35,7 @@
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
 				<prop key="hibernate.show_sql">false</prop>
 				<prop key="hibernate.format_sql">false</prop>
+				<prop key="javax.persistence.validation.mode">none</prop> 
 				<prop key="hibernate.query.factory_class">org.hibernate.hql.ast.ASTQueryTranslatorFactory
 				</prop>
 				<prop key="hibernate.connection.release_mode">after_transaction</prop>
