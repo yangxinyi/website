@@ -11,6 +11,4 @@ package com.map.service.user;
  */
 public interface UserService {
 
-	void login();
-	
 }
