@@ -55,7 +55,7 @@ public class LoginController {
 		try {
 			success = identityValidator.login(new PasswordVerifier(loginForm.getName(), loginForm.getPassword()));
 			if(success){
-				modelAndView.setViewName("/user/index");
+				modelAndView.setView(new RedirectView("/user/index"));
 			}
 		} catch (AuthenticationException e) {
 			modelAndView.addObject(ERRORMESSAGE, "账户名或密码不正确！");
