@@ -214,7 +214,7 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>hibernate-validator</groupId>
+			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>4.1.0.Final</version>
 			<type>jar</type>
